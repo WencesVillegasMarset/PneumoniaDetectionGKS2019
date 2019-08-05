@@ -20,7 +20,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/trained_model.h5'
+MODEL_PATH = 'models/vgg16_chestXray.h5'
 
 #Load your trained model
 global model
