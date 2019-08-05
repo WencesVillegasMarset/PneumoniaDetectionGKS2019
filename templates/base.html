@@ -13,17 +13,30 @@
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">   
-    <link rel='icon' href="{{ url_for('static', filename='favicon.ico') }}" type='image/x-icon'/ >   
+    <link rel='icon' href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon/" >
 </head>
 
 <body style="background-color: #E9E9E9">
-    <nav class="navbar">
-        <div class="container">
-            <a class="navbar-brand" style="color: white" href="#">Pneumonia Detection</a>
-            <div id="navbar-logos">
-                <a href="https://www.studyinkorea.go.kr/" class="pull-right"><img id="sik_logo" src="/static/studykorea.png"></a> 
-                <a href="http://dongseo.ac.kr" class="pull-right"><img id="dsu_logo" src="/static/dsu_white.png"></a> 
-            </div>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="navbar-brand" style="color: white" href="#">Pneumonia Detection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#predict" class="nav-link"><span>Predict</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span>About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link"><span>Team</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                        <a href="https://www.studyinkorea.go.kr/" class="."><img id="sik_logo" src="/static/studykorea.png"></a> 
+                        <a href="http://dongseo.ac.kr" class=""><img id="dsu_logo" src="/static/dsu_white.png"></a>
+                </form>
         </div>
     </nav>
     <div class="container">
