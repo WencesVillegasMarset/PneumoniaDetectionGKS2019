@@ -75,7 +75,7 @@ def upload():
         os.remove(file_path)#removes file from the server after prediction has been returned
 
         # Arrange the correct return according to the model. 
-        data = str((np.around(preds.tolist()[0], decimals=6))[0])
+        data = str((np.around(preds.tolist()[0], decimals=4))[1])
 
     return (data)
 
