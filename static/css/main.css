@@ -48,7 +48,6 @@
 #predict{
     text-align: center;
     align-self: center;
-
 }
 
 #containerDinamico{
@@ -161,7 +160,7 @@ section {
 section .section-title {
     text-align: center;
     color:black;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 
