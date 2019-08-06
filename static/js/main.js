@@ -17,23 +17,7 @@ $(document).ready(function () {
             reader.readAsDataURL(input.files[0]);
         }
     }
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
-            $('#back-to-top').fadeIn();
-        } else {
-            $('#back-to-top').fadeOut();
-        }
-    });
-    // scroll body to 0px on click
-    $('#back-to-top').click(function () {
-        $('#back-to-top').show();
-        $('body,html').animate({
-            scrollTop: 0
-        }, 800);
-        return false;
-    });
     
-    $('#back-to-top').hide();
 
     $("#imageUpload").change(function () {
         $('.image-section').show();
