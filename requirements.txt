@@ -1,4 +1,4 @@
-Werkzeug==0.12.2
+Werkzeug==2.2.3
 Flask==0.12.2
 Keras==2.2.4
 gevent==1.2.2
